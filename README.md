@@ -30,6 +30,8 @@ To view the RTSP Inference stream with VLC::
 
         vlc -v rtsp://<device IP address>:<port>/video<stream idx>
         ex: vlc -v rtsp://122.3.0.1:5000/video0
+        
+To stop the application: Click CTRL+C from the command line.
 
 ## Support
 * [Documentation](https://alwaysai.co/docs/)
