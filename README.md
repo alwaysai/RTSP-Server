@@ -1,5 +1,5 @@
 # Object Detector and RTSP Streamer
-Use [Object Detection](https://alwaysai.co/docs/application_development/core_computer_vision_services.html#object-detection) to detect objects in a real-time camera stream and stream the output with RTSP server. The types of objects detected can be changed by selecting different models.
+Use [Object Detection](https://alwaysai.co/docs/application_development/core_computer_vision_services.html#object-detection) and [RTSP Server](https://alwaysai.co/docs/edgeiq_api/video_writer.html?highlight=rtsp#edgeiq.rtsp_video_writer.RtspVideoWriter) to stream Object Detection Inference through RTSP stream. The types of objects detected can be changed by selecting different models.
 
 ## Requirements
 * [alwaysAI account](https://alwaysai.co/auth?register=true)
@@ -26,7 +26,7 @@ aai app start
 To change the computer vision model, the engine and accelerator, and add additional dependencies read [this guide](https://alwaysai.co/docs/application_development/configuration_and_packaging.html).
 
 
-To capture the RTSP Inference stream with VLC::
+To view the RTSP Inference stream with VLC::
 
         vlc -v rtsp://<device IP address>:<port>/video<stream idx>
         ex: vlc -v rtsp://122.3.0.1:5000/video0
