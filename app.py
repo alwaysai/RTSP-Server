@@ -16,7 +16,7 @@ def main():
 
     try:
         with edgeiq.WebcamVideoStream() as video_stream, \
-            edgeiq.RtspVideoWriter() as video_writer:
+                edgeiq.RtspVideoWriter() as video_writer:
             # Allow Webcam to warm up
             time.sleep(2.0)
             fps.start()
@@ -29,10 +29,6 @@ def main():
                         frame, results.predictions, colors=obj_detect.colors)
 
                 video_writer.write_frame(frame)
-
-    except KeyboardInterrupt:
-        print("Keyboard Interrupt occured. Ending the Program ...")
-        sys.exit()
 
     finally:
         fps.stop()
