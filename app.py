@@ -1,6 +1,5 @@
 import time
 import edgeiq
-import sys
 
 
 def main():
