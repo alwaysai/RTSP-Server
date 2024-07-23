@@ -23,7 +23,7 @@ To start the app:
 aai app start
 ```
 
-To change the computer vision model, the engine and accelerator, and add additional dependencies read [this guide](https://alwaysai.co/docs/application_development/configuration_and_packaging.html).
+To change the computer vision model, the engine and accelerator, and add additional dependencies read [this guide](https://docs.alwaysai.co/application_development/application_configuration.html).
 
 
 To view the RTSP Inference stream with VLC::
