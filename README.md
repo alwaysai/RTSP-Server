@@ -1,5 +1,5 @@
 # Object Detector and RTSP Streamer
-Use [Object Detection](https://alwaysai.co/docs/application_development/core_computer_vision_services.html#object-detection) and [RTSP Server](https://alwaysai.co/docs/edgeiq_api/video_writer.html?highlight=rtsp#edgeiq.rtsp_video_writer.RtspVideoWriter) to stream Object Detection Inference through RTSP stream. The types of objects detected can be changed by selecting different models.
+Use [Object Detection](https://alwaysai.co/docs/application_development/core_computer_vision_services.html#object-detection) and [RTSP Server](https://docs.alwaysai.co/edgeiq_api/rtsp_video_writer.html) to stream Object Detection Inference through RTSP stream. The types of objects detected can be changed by selecting different models.
 
 ## Requirements
 * [alwaysAI account](https://alwaysai.co/auth?register=true)
